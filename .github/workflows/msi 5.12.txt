@@ -1,0 +1,39 @@
+DISPOSITIVOS
+Asus ROG 2: está en la lista de dispositivos del emu (de los más usados en la comunidad)
+Samsung S21 Ultra: está en la lista de dispositivos del emu (uso este)
+Xiaomi - Redmi Note 9 - M2003J15sg (es bueno)
+realme - realme - RMX5070: para los 120 fps (colocar antes para hacer el primer inicio de ff apenas instalar el juego, luego se puede cambiar)
+
+CODIGO DE HUD
+#FFHUDT6O3jgmm6ghPo7eP
+
+SENS
+320 dpi emu.
+800 dpi mouse.
+
+CONFIGURACION
+Apartado de rendimiento:
+Solo activar la opción de mostrar fps.
+Si tienes +16gb de ram y una buena optimización usar 8gb de ram.
+
+Apartado de gráficos:
+Solo mover las texturas ASTC (Beta):
+Decodificación de software (opción predeterminada, puedes dejarla si te dice que no es compatible la de hardware).
+Deshabilitada (recomendado si no tienes gráfica).
+Decodificación de hardware (recomendado mas q nada si tienes gráfica).
+
+Gamepad:
+Desactivar todas las opciones.
+
+Preferencias:
+desactivar todas menos la última de todas.
+
+Atajos:
+quitar todos menos el F11.
+
+BUGUEO DE FPS:
+Al cerrar el emu luego del primer inicio de ff (importante), puedes usar el archivo que dejé o hacerlo de forma manual usando Windows + R, colocando %programdata% y entrar a bluestacks_msi5 y abriendo el archivo bluestacks.conf con el bloc de notas para cambiar lo siguiente:
+- bst.instance.Pie64.enable_high_fps="0": dejar así este valor.
+- bst.instance.Pie64.max_fps="60":cambiar el 60 por "999" dejando las comillas.
+- bst.mim.max_fps="60": cambiar el 60 por "240" dejando las comillas.
+
